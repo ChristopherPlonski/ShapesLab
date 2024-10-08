@@ -6,10 +6,10 @@ Circle::Circle(double radius)
 }
 
 double Circle::getArea() {
-	return 0.0f;
+	return 3.14 * radius * radius;
 }
 
 double Circle::getPerimeter()
 {
-	return 0.0;
+	return 2 * 3.14 * radius;
 }
