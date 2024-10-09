@@ -1,7 +1,6 @@
 #include "Square.hpp"
-#include "Rectangle.cpp"
 #include <iostream>
-#include <assert.h>
+#include <cassert>
 
 using namespace std;
 
