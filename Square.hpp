@@ -5,7 +5,7 @@
 class Square : public Rectangle
 {
     public:
-    explicit Square(double size):Rectangle(size,size){}
+    Square(double size);
 };
 
 #endif // !SQUARE_H
