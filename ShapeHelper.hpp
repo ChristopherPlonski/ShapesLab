@@ -1,7 +1,10 @@
 #ifndef SHAPEHELPER_H
 #define SHAPEHELPER_H
 
+#include "string"
 #include "Shape.hpp"
+
+using namespace std;
 
 class ShapeHelper {
 public:

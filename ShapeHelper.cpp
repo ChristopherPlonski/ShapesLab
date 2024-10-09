@@ -8,6 +8,6 @@ string ShapeHelper::printAreaToScreen(Shape* shape)
 {
 	double shapeArea = shape->getArea();
 	string stringToPrint = "Shape's Area: " + to_string(shapeArea);
-	cout << stringToPrint;
+	//cout << stringToPrint;
 	return stringToPrint;
 }
