@@ -18,5 +18,10 @@ int main() {
 	assert(testCircle.getArea() == 0);
 	assert(testCircle.getPerimeter() == 0);
 
+	testCircle = Circle(1.5);
+
+	assert(testCircle.getArea() == 3.14 * 1.5 * 1.5);
+	assert(testCircle.getPerimeter() == 2 * 3.14 * 1.5);
+
 	cout << "Circle testing completed. \n";
 }
