@@ -9,9 +9,9 @@ Rectangle::Rectangle(double length, double width)
 double Rectangle::getArea()
 {
     return length * width;
-};
+}
 
 double Rectangle::getPerimeter()
 {
     return length + length + width + width;
-};
+}
