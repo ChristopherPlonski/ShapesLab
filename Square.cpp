@@ -3,4 +3,4 @@
 Square::Square(double size):Rectangle(size, size)
 {
 
-};
+}
